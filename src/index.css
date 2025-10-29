@@ -20,13 +20,13 @@ All colors MUST be HSL.
     --popover: 0 0% 10%;
     --popover-foreground: 0 0% 100%;
     
-    --primary: 195 100% 50%;
+    --primary: 15 100% 55%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 211 85% 34%;
+    --secondary: 0 70% 40%;
     --secondary-foreground: 0 0% 100%;
     
-    --accent: 152 100% 50%;
+    --accent: 20 100% 55%;
     --accent-foreground: 0 0% 7%;
     
     --muted: 0 0% 20%;
@@ -37,21 +37,21 @@ All colors MUST be HSL.
     
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 195 100% 50%;
+    --ring: 15 100% 55%;
     
     --radius: 0.75rem;
     
-    /* Neon accents */
-    --neon-blue: 195 100% 50%;
-    --neon-green: 152 100% 50%;
+    /* Neon accents - welding colors */
+    --neon-blue: 15 100% 55%;
+    --neon-green: 20 100% 55%;
     
     /* Gradients */
-    --gradient-dark: linear-gradient(135deg, hsl(0 0% 10%), hsl(211 85% 34%));
-    --gradient-neon: linear-gradient(90deg, hsl(195 100% 50%), hsl(152 100% 50%));
+    --gradient-dark: linear-gradient(135deg, hsl(0 0% 10%), hsl(0 70% 25%));
+    --gradient-neon: linear-gradient(90deg, hsl(15 100% 55%), hsl(25 100% 50%));
     
     /* Shadows */
-    --shadow-neon-blue: 0 0 20px hsl(195 100% 50% / 0.5);
-    --shadow-neon-green: 0 0 20px hsl(152 100% 50% / 0.5);
+    --shadow-neon-blue: 0 0 20px hsl(15 100% 55% / 0.6);
+    --shadow-neon-green: 0 0 20px hsl(20 100% 55% / 0.6);
     --shadow-card: 0 10px 40px hsl(0 0% 0% / 0.6);
     
     /* Typography */
