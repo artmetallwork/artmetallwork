@@ -1,6 +1,13 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import weldingSteelImg from "@/assets/service-welding-steel.jpg";
+import wheelRepairImg from "@/assets/service-wheel-repair.jpg";
+import radiatorRepairImg from "@/assets/service-radiator-repair.jpg";
+import acRepairImg from "@/assets/service-ac-repair.jpg";
+import bikeRepairImg from "@/assets/service-bike-repair.jpg";
+import constructionImg from "@/assets/service-construction.jpg";
+import polygonImg from "@/assets/service-polygon.jpg";
 
 const categories = ["Все", "Сварка", "Ремонт", "Изготовление"];
 
@@ -10,49 +17,49 @@ const services = [
     description: "Высококачественная сварка нержавеющей стали для любых нужд.",
     price: "20 руб.",
     category: "Сварка",
-    image: "welding"
+    image: weldingSteelImg
   },
   {
     title: "Аргонная сварка дисков",
     description: "Профессиональный ремонт и восстановление автомобильных дисков.",
     price: "60 руб.",
     category: "Ремонт",
-    image: "disks"
+    image: wheelRepairImg
   },
   {
     title: "Ремонт домашних радиаторов аргоном",
     description: "Надёжное устранение течей и повреждений радиаторов.",
     price: "20 руб.",
     category: "Ремонт",
-    image: "radiator"
+    image: radiatorRepairImg
   },
   {
     title: "Ремонт кондиционеров",
     description: "Восстановление герметичности трубок и систем кондиционирования.",
     price: "30 руб.",
     category: "Ремонт",
-    image: "ac"
+    image: acRepairImg
   },
   {
     title: "Ремонт велосипедов",
     description: "Сварка и ремонт алюминиевых и стальных велорам.",
     price: "60 руб.",
     category: "Ремонт",
-    image: "bike"
+    image: bikeRepairImg
   },
   {
     title: "Аргонная сварка металлоконструкций",
     description: "Сборка и сварка сложных и негабаритных металлоконструкций.",
     price: "120 руб.",
     category: "Сварка",
-    image: "construction"
+    image: constructionImg
   },
   {
     title: "Изготовление полигональных фигур под заказ",
     description: "Создание уникальных 3D-объектов и фигур из металла по вашему заказу.",
     price: "Цена по запросу",
     category: "Изготовление",
-    image: "polygon"
+    image: polygonImg
   },
 ];
 
@@ -96,9 +103,13 @@ export const Services = () => {
               className="hover-lift bg-card border-border overflow-hidden group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="h-48 bg-gradient-to-br from-card to-card-hover flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors" />
-                <div className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity">⚙️</div>
+              <div className="h-48 relative overflow-hidden">
+                <img 
+                  src={service.image} 
+                  alt={service.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
               </div>
               <CardHeader>
                 <CardTitle className="text-xl">{service.title}</CardTitle>
