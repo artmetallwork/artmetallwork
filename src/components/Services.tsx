@@ -113,7 +113,7 @@ export const Services = () => {
               </div>
               <CardHeader>
                 <CardTitle className="text-xl">{service.title}</CardTitle>
-                <CardDescription className="bg-gradient-to-r from-[#ff4d00] via-[#dc2626] to-[#b91c1c] bg-clip-text text-transparent font-medium">
+                <CardDescription className="text-gradient font-medium">
                   {service.description}
                 </CardDescription>
               </CardHeader>
