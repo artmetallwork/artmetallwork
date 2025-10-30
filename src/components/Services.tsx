@@ -100,7 +100,7 @@ export const Services = () => {
           {filteredServices.map((service, index) => (
             <Card 
               key={index} 
-              className="hover-lift bg-card border-border overflow-hidden group"
+              className="hover-lift bg-card border-border overflow-hidden group flex flex-col h-full"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="h-48 relative overflow-hidden">
@@ -117,7 +117,7 @@ export const Services = () => {
                   {service.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-grow flex flex-col justify-end">
                 <div className="text-2xl font-black text-primary">
                   {service.price}
                 </div>
