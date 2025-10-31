@@ -26,11 +26,7 @@ export const Hero = () => {
           </p>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
-            <span className="text-gradient">ARTMETALLWORK:</span>
-            <br />
-            <span className="text-gradient">Форма и функция в металле.</span>
-            <br />
-            Идеально. Просто. Навсегда.
+                    Идеально. Просто. Навсегда.
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 font-light">
