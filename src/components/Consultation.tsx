@@ -105,7 +105,7 @@ export const Consultation = () => {
               
               <div className="border-t border-border pt-6">
                 <h4 className="font-bold mb-3">Работаем:</h4>
-                <p className="text-muted-foreground">с физ и юр лицами</p>
+                <p className="text-muted-foreground">с физ. и юр.лицами, выезд к клиенту</p>
               </div>
             </div>
           </div>
