@@ -1,4 +1,4 @@
-import polygonImage from "@/assets/polygon-sculpture.jpg";
+import polygonImage from "@/assets/polygon-bear.jpg";
 import partitionImage from "@/assets/metal-partition.jpg";
 import tableImage from "@/assets/metal-table.jpg";
 
