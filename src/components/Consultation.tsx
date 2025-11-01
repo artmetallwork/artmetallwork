@@ -104,8 +104,8 @@ export const Consultation = () => {
               </div>
               
               <div className="border-t border-border pt-6">
-                <h4 className="font-bold mb-3">Способы оплаты:</h4>
-                <p className="text-muted-foreground">Наличными, картой, безналичный расчет</p>
+                <h4 className="font-bold mb-3">Работаем:</h4>
+                <p className="text-muted-foreground">с физ и юр лицами</p>
               </div>
             </div>
           </div>
