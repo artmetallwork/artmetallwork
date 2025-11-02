@@ -8,6 +8,7 @@ import acRepairImg from "@/assets/service-ac-repair.jpg";
 import bikeRepairImg from "@/assets/service-bike-repair.jpg";
 import constructionImg from "@/assets/service-construction.jpg";
 import polygonImg from "@/assets/service-polygon.jpg";
+import metalFurnitureImg from "@/assets/metal-partition.jpg";
 
 const categories = ["Все", "Сварка", "Ремонт", "Изготовление"];
 
@@ -60,6 +61,13 @@ const services = [
     price: "Цена по запросу",
     category: "Изготовление",
     image: polygonImg
+  },
+  {
+    title: "Изготовление металлической мебели и ограждений",
+    description: "Производство качественной металлической мебели и ограждений по индивидуальным размерам.",
+    price: "Цена по запросу",
+    category: "Изготовление",
+    image: metalFurnitureImg
   },
 ];
 
