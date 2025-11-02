@@ -27,10 +27,10 @@ const services = [
     image: wheelRepairImg
   },
   {
-    title: "Ремонт автомобильных радиаторов аргоном",
-    description: "Профессиональное восстановление автомобильных радиаторов охлаждения.",
+    title: "Аргонная сварка для авто",
+    description: "Сварка поддонов, глушителей, радиаторов, кронштейнов и других элементов автомобиля.",
     price: "20 руб.",
-    category: "Ремонт",
+    category: "Сварка",
     image: radiatorRepairImg
   },
   {
@@ -111,18 +111,18 @@ export const Services = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
               </div>
-              <CardHeader>
-                <CardTitle className="text-xl">{service.title}</CardTitle>
-                <CardDescription className="text-gradient font-medium">
+              <CardHeader className="flex-grow-0">
+                <CardTitle className="text-xl min-h-[3.5rem] flex items-start">{service.title}</CardTitle>
+                <CardDescription className="text-gradient font-medium min-h-[4rem]">
                   {service.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent className="flex-grow flex flex-col justify-end">
-                <div className="text-2xl font-black text-primary">
+              <CardContent className="flex-grow-0">
+                <div className="text-2xl font-black text-primary min-h-[2rem]">
                   {service.price}
                 </div>
               </CardContent>
-              <CardFooter>
+              <CardFooter className="mt-auto">
                 <Button 
                   variant="neonOutline" 
                   className="w-full"
