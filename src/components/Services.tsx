@@ -8,7 +8,7 @@ import acRepairImg from "@/assets/service-ac-repair.jpg";
 import bikeRepairImg from "@/assets/service-bike-repair.jpg";
 import constructionImg from "@/assets/service-construction.jpg";
 import polygonImg from "@/assets/service-polygon.jpg";
-import metalFurnitureImg from "@/assets/metal-partition.jpg";
+import metalFurnitureImg from "@/assets/metal-furniture.jpg";
 
 const categories = ["Все", "Сварка", "Ремонт", "Изготовление"];
 
