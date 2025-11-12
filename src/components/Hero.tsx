@@ -8,6 +8,17 @@ export const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Phone Number */}
+      <div className="absolute top-4 right-4 z-20 md:top-8 md:right-8">
+        <a 
+          href="tel:+375447624444" 
+          className="text-primary hover:text-primary/80 transition-colors font-semibold text-lg md:text-xl flex items-center gap-2"
+        >
+          <span className="animate-pulse">📞</span>
+          +375 44 762 44 44
+        </a>
+      </div>
+      
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
