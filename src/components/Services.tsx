@@ -63,8 +63,8 @@ const services = [
     image: polygonImg
   },
   {
-    title: "Изготовление металлической мебели",
-    description: "Производство качественной металлической мебели по индивидуальным размерам.",
+    title: "Изготовление металлической мебели и ограждений",
+    description: "Производство качественной металлической мебели и ограждений по индивидуальным размерам.",
     price: "Цена по запросу",
     category: "Изготовление",
     image: metalFurnitureImg
@@ -120,13 +120,13 @@ export const Services = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
               </div>
               <CardHeader className="flex-grow-0">
-                <CardTitle className="text-xl h-[4.5rem] flex items-start">{service.title}</CardTitle>
-                <CardDescription className="text-gradient font-medium h-[5rem]">
+                <CardTitle className="text-xl min-h-[3.5rem] flex items-start">{service.title}</CardTitle>
+                <CardDescription className="text-gradient font-medium min-h-[4rem]">
                   {service.description}
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex-grow-0">
-                <div className="text-2xl font-black text-primary h-[2rem] flex items-center">
+                <div className="text-2xl font-black text-primary min-h-[2rem]">
                   {service.price}
                 </div>
               </CardContent>
