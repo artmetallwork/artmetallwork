@@ -15,7 +15,7 @@ const advantages = [
   {
     icon: Wrench,
     title: "Профессиональная сварка",
-    description: "Аргон, алюминий, нержавейка"
+    description: "Алюминий, нержавейка, цветмет"
   },
   {
     icon: Factory,
@@ -51,12 +51,12 @@ export const Advantages = () => {
                 className="hover-lift bg-card border-border group"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <CardContent className="p-6 text-center">
+                <CardContent className="p-6 text-center flex flex-col h-full">
                   <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:glow-blue transition-all">
                     <Icon className="w-8 h-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">{adv.title}</h3>
-                  <p className="text-muted-foreground">{adv.description}</p>
+                  <p className="text-muted-foreground mt-auto">{adv.description}</p>
                 </CardContent>
               </Card>
             );
