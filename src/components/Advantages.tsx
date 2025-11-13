@@ -15,7 +15,7 @@ const advantages = [
   {
     icon: Wrench,
     title: "Профессиональная сварка",
-    description: "Алюминий, нержавейка, цветмет"
+    description: "Алюминий, нержавейка, металл"
   },
   {
     icon: Factory,
