@@ -9,6 +9,7 @@ import bikeRepairImg from "@/assets/service-bike-repair.jpg";
 import constructionImg from "@/assets/service-construction.jpg";
 import polygonImg from "@/assets/service-polygon.jpg";
 import metalFurnitureImg from "@/assets/metal-furniture.jpg";
+import laserWeldingImg from "@/assets/service-laser-welding.jpg";
 
 const categories = ["Все", "Сварка", "Ремонт", "Изготовление"];
 
@@ -68,6 +69,13 @@ const services = [
     price: "Цена по запросу",
     category: "Изготовление",
     image: metalFurnitureImg
+  },
+  {
+    title: "Лазерная сварка и чистка металла",
+    description: "Современная технология лазерной сварки и очистки металлических поверхностей.",
+    price: "от 20 руб.",
+    category: "Сварка",
+    image: laserWeldingImg
   },
 ];
 
