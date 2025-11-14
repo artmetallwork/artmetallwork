@@ -129,7 +129,7 @@ export const Services = () => {
               </div>
               <CardHeader className="flex-grow-0">
                 <CardTitle className="text-xl h-[4.5rem] flex items-start">{service.title}</CardTitle>
-                <CardDescription className="text-gradient font-medium h-[5rem]">
+                <CardDescription className="text-gradient font-medium h-[5rem] flex items-end">
                   {service.description}
                 </CardDescription>
               </CardHeader>
